@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(198, 207, 207);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.main_1{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: rgb(236, 236, 178);
+    width: 70%;
+    height: 320px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.main_1_1{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: 50px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 190px;
+    left: 40px;
+}
+.main_1_2{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: 50px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 190px;
+    right: 40px;
+}
+.main_1_3{
+    display: flex;
+    position: absolute;
+    width: 92.5%;
+    height: 70px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 250px;
+}
+@media (max-width: 900px) {
+    .main_1 {
+        flex-direction: column;
+    }
+}
+.main_2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(169, 237, 145);
+    height: 320px;
+    width: 30%;
+    justify-content: center;
+    position: absolute;
+    top: 58px;
+    right: 0.55%;
+    padding-top: 30px;
+}
+.futer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(198, 207, 207);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+@media (max-width: 900px) {
+    .futer {
+    flex-direction: column;
+    }
+    }
+}
+.futer_1{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 50px;
+}
+.futer_2{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 405px;
+}
+.futer_3{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 760px;
+}
+.futer_4{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 1115px;
+}
+body {
+    font-weight: bold;
+}
